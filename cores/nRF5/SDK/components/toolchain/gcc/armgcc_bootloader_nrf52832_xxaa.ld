@@ -1,0 +1,1 @@
+C:/Users/akv.CYMPAK/Documents/Projects/github/arduino-nRF5/cores/nRF5/SDK/components/softdevice/bootloader/toolchain/armgcc/armgcc_bootloader_nrf52832_xxaa.ld

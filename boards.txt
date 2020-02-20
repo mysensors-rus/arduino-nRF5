@@ -46,6 +46,14 @@ Generic_nRF52832.menu.softdevice.none=None
 Generic_nRF52832.menu.softdevice.none.softdevice=none
 Generic_nRF52832.menu.softdevice.none.softdeviceversion=
 
+Generic_nRF52832.menu.softdevice.bootloader=Bootloader
+Generic_nRF52832.menu.softdevice.bootloader.softdevice=bootloade
+Generic_nRF52832.menu.softdevice.bootloader.softdeviceversion=0.0.1
+Generic_nRF52832.menu.softdevice.bootloader.upload.maximum_size=491520
+Generic_nRF52832.menu.softdevice.bootloader.build.vect=VECT_TAB_ADDR=0x0004000
+Generic_nRF52832.menu.softdevice.bootloader.build.extra_flags=-Og -gdwarf-2 -DNRF52 -DBootloader -DNRF51_Bootloader
+Generic_nRF52832.menu.softdevice.bootloader.build.ldscript=armgcc_bootloader_nrf52832_xxaa.ld
+
 Generic_nRF52832.menu.softdevice.s132=S132
 Generic_nRF52832.menu.softdevice.s132.softdevice=s132
 Generic_nRF52832.menu.softdevice.s132.softdeviceversion=2.0.1

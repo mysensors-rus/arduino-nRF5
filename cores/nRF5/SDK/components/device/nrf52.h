@@ -591,7 +591,9 @@ typedef struct {                                    /*!< POWER Structure        
                                                          retained)                                                             */
   __I  uint32_t  RESERVED10[8];
   __IO uint32_t  DCDCEN;                            /*!< DC/DC enable register                                                 */
-  __I  uint32_t  RESERVED11[225];
+  __I  uint32_t  RESERVED12[1];
+  __IO uint32_t  DCDCEN0;                            /*!< DC/DC enable register                                                 */
+  __I  uint32_t  RESERVED11[217];
   POWER_RAM_Type RAM[8];                            /*!< Unspecified                                                           */
 } NRF_POWER_Type;
 
